@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WP Pusher</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="#">
+        <img src="./images/wppusher-logo copy.jpg" alt="page-logo" class="page-logo">
+      </a>
+    </div>
+
+    <nav class="header-nav">
+      <ul>
+        <li><a href="#">Download</a></li>
+        <li><a href="#">Learn more</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Account</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="main-page">
+      <section class="first-section">
+        <h2>Checkout</h2>
+
+        <hr color="">
+
+        <form action="">
+          <fieldset class="info-field">
+            <legend>
+              <h3><span class="number">1</span> Your Basic Information</h3>
+            </legend>
+    
+            <div class="user-details">
+              <div class="first-name">
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" placeholder="Jane" required>
+              </div>
+    
+              <div class="last-name">
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" placeholder="Doe" required>
+              </div>
+    
+              <div class="email">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="janedoe@example.com" required>
+              </div>
+            </div>
+          </fieldset>
+
+          <hr color="">
+  
+          <fieldset class="payment-field">
+            <legend>
+              <h3><span class="number">2</span> Your Payment Information</h3>
+            </legend>
+            
+            <div class="credit-card">
+              <label for="number">Credit Card</label>
+              <div class="card-details">
+                <input type="text" name="number" id="number" placeholder="Card Number" required>
+                <input type="text" name="expiry-date" id="expiry-date" value="2018-05" required>
+                <input class="required" id="field" type="text" maxlength="3" pattern="([0-9]|[0-9]|[0-9])" name="cvv" required placeholder="CVC"/>
+              </div>
+            </div>
+          </fieldset>
+
+          <hr color="">
+  
+          <div class="button-container">
+            <button type="submit" class="submit-button" value="purchase">Buy WP Pusher</button>
+          </div>
+        </form>
+  
+        <div class="first-section-footer">
+          <div class="help-section">
+            <p>
+              <ion-icon name="help-circle-outline"></ion-icon>
+            </p>
+            <p><span>Need any help&quest;</span> Don’t hesitate to <a href="#">contact support</a>&excl;</p>
+          </div>
+
+          <div class="stripe">
+            <p>Powered by <span class="bold">stripe</span></p>
+          </div>
+        </div>
+      </section>
+  
+      <section class="second-section">
+        <!-- ss - second-section -->
+        <div class="ss-one">
+          <p class="freelancer">Freelancer</p>
+          <p class="amount">
+            <span>&dollar;</span> 
+            <span>99</span> 
+            <span>/year</span>
+          </p>
+          <p>Automatically renews after 1 year</p>
+        </div>
+  
+        <div class="ss-two">
+          <p>
+            <ion-icon name="checkmark-circle-outline" aria-hidden="true"></ion-icon> 
+            <span>Use on 5 client sites</span>
+          </p>
+          <p>
+            <ion-icon name="checkmark-circle-outline" aria-hidden="true"></ion-icon>
+            <span>Private repositories</span>
+          </p>
+          <p>
+            <ion-icon name="checkmark-circle-outline" aria-hidden="true"></ion-icon>
+            <span>Email support</span>
+          </p>
+        </div>
+  
+        <div class="ss-three">
+          <p>Need 20 client sites&quest;</p>
+          <p>Switch to the Agency plan.</p>
+        </div>
+
+        <hr color="">
+  
+        <div class="ss-four">
+          <p>FTP is horrible to deal with. <span class="bold">WP Pusher</span> solves that issue, and the customer support is awesome!</p>
+        </div>
+  
+        <div class="ss-five">
+          <img src="./images/kirk-avatar.jpg" alt="Kirk-Beard" class="avatar">
+          <p>Kirk Beard</p>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      &copy; 2018 WP Pusher IVS · <a href="#">Terms of Service</a>
+    </footer>
+  </main>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
